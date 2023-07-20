@@ -1,0 +1,13 @@
+.btn{
+    padding: 15px 20PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: none;
+    color: $white;
+    border: 1px solid $white;
+    &.pink{
+        color: pink;
+    }
+}

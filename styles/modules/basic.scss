@@ -1,0 +1,59 @@
+// Шаблонные компоненты стилей
+
+// переменные
+:root{
+    --container: 1260px;
+}
+$white:#ffffff;
+$black:rgb(32, 32, 32);
+// миксины
+
+@mixin grid_column ($column){
+    display: grid;
+    grid-template-columns: repeat($column, minmax(0, 1fr));
+}
+@mixin width (){
+    width: 1200px;
+    margin: 0 auto;
+}
+@mixin background(){
+    background-image: url(../../images/background/bg-header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@mixin heading_42(){
+    font-size: 42px;
+    font-weight: 500;
+    margin: 0;
+}
+@mixin heading_18(){
+    font-size: 18px;
+    font-weight: 300;
+}
+@mixin heading_20(){
+    font-size: 20px;
+    font-weight: 400;
+}
+@mixin margin(){
+    margin-top: 35px;
+    margin-bottom: 35px;
+}@mixin heading_24(){
+    font-size: 24px;
+    font-weight: 400;
+}
+// компоненты
+
+* {
+    box-sizing: border-box;
+}
+
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: var(--container);
+    margin: 0 auto
+}

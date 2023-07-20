@@ -1,0 +1,117 @@
+section{
+    .hero-section{
+        @include background;
+    .hero-container{
+        padding-top: 375px;
+        padding-bottom: 109px;
+        h1{
+            color: $white;
+            @include heading_42;
+        }
+        p{
+            @include heading_18;
+            color: $white;
+        }
+    }
+    .hero-container-end{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        text-align: center;
+        h2{
+            color: $white;
+            @include heading_20;
+            margin: 0;
+            
+        }
+    }
+    }
+    .description-section{
+        background-color: $black;
+        
+        .description-container{ 
+            padding-top:111px ;
+            padding-bottom: 120px;
+            h2{
+                margin: 0;
+                color: $white;
+                @include heading_20;
+            }
+            p{
+                margin: 0;
+                @include heading_18;
+                color: $white;
+            }
+            .mastering{
+                display: flex;
+                justify-content: space-between;
+                
+                .breaking{
+                    display: flex;
+                    justify-content: space-between;
+                    .super{
+                        margin-left: 250px;
+                        display: flex;
+                        justify-content: space-between;
+                        p{
+                            
+                            margin-left: 60px;
+                        }
+                    }
+                }
+                
+            }
+        .img-and-decriprion{
+            margin-top: 65px;
+            display: flex;
+            justify-content: space-between;
+            .description-text{
+                margin-top: 290px;
+                .h2-text{
+                    @include heading_24;
+                    color: $white;
+                    margin-bottom: 40px;
+                    display: block;
+                }
+                .p-text{
+                    display: block;
+                    color: $white;
+                    @include heading_20;
+                }
+            }
+        }
+        }
+    }
+    .description-section-2{
+        background-color: $black;
+        .description-section-2-container{
+            padding: 100px 0;
+            .tour-force{
+                display: flex;
+                justify-content: space-between;
+                span{
+                    color: $white;
+                    @include heading_20;
+                }
+            }
+            .desc{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 45px;
+                .h2-text{
+                    @include heading_24;
+                    color: $white;
+                    display: block;
+                    
+                }
+                .p-text{
+                    display: block;
+                    color: $white;
+                    @include heading_20;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}

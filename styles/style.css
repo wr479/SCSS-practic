@@ -1,0 +1,174 @@
+:root {
+  --container: 1260px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 15px 20PX;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: none;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.btn.pink {
+  color: pink;
+}
+
+header {
+  padding: 64px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+header .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .head .icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+section .hero-section {
+  background-image: url(../../images/background/bg-header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section .hero-section .hero-container {
+  padding-top: 375px;
+  padding-bottom: 109px;
+}
+section .hero-section .hero-container h1 {
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: 500;
+  margin: 0;
+}
+section .hero-section .hero-container p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+}
+section .hero-section .hero-container-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+section .hero-section .hero-container-end h2 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+section .description-section {
+  background-color: rgb(32, 32, 32);
+}
+section .description-section .description-container {
+  padding-top: 111px;
+  padding-bottom: 120px;
+}
+section .description-section .description-container h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+}
+section .description-section .description-container p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+}
+section .description-section .description-container .mastering {
+  display: flex;
+  justify-content: space-between;
+}
+section .description-section .description-container .mastering .breaking {
+  display: flex;
+  justify-content: space-between;
+}
+section .description-section .description-container .mastering .breaking .super {
+  margin-left: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+section .description-section .description-container .mastering .breaking .super p {
+  margin-left: 60px;
+}
+section .description-section .description-container .img-and-decriprion {
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+section .description-section .description-container .img-and-decriprion .description-text {
+  margin-top: 290px;
+}
+section .description-section .description-container .img-and-decriprion .description-text .h2-text {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 40px;
+  display: block;
+}
+section .description-section .description-container .img-and-decriprion .description-text .p-text {
+  display: block;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+}
+section .description-section-2 {
+  background-color: rgb(32, 32, 32);
+}
+section .description-section-2 .description-section-2-container {
+  padding: 100px 0;
+}
+section .description-section-2 .description-section-2-container .tour-force {
+  display: flex;
+  justify-content: space-between;
+}
+section .description-section-2 .description-section-2-container .tour-force span {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+}
+section .description-section-2 .description-section-2-container .desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 45px;
+}
+section .description-section-2 .description-section-2-container .desc .h2-text {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  display: block;
+}
+section .description-section-2 .description-section-2-container .desc .p-text {
+  display: block;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+
+/*# sourceMappingURL=style.css.map */

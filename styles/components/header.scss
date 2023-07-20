@@ -1,0 +1,16 @@
+header{
+    padding: 64px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    .head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .icons{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+    }
+}
