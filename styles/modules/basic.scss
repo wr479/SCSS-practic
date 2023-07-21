@@ -3,6 +3,7 @@
 // переменные
 :root{
     --container: 1260px;
+    --content: 872px
 }
 $white:#ffffff;
 $black:rgb(32, 32, 32);
@@ -41,6 +42,9 @@ $black:rgb(32, 32, 32);
 }@mixin heading_24(){
     font-size: 24px;
     font-weight: 400;
+}@mixin heading_16(){
+    font-size: 16px;
+    font-weight: 300;
 }
 // компоненты
 
@@ -56,4 +60,8 @@ body, html{
 .container {
     max-width: var(--container);
     margin: 0 auto
+}
+.content{
+    max-width: var(--content);
+    margin: 0 auto;
 }

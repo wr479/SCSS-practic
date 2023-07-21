@@ -1,5 +1,6 @@
 :root {
   --container: 1260px;
+  --content: 872px ;
 }
 
 * {
@@ -16,6 +17,11 @@ body, html {
   margin: 0 auto;
 }
 
+.content {
+  max-width: var(--content);
+  margin: 0 auto;
+}
+
 .btn {
   padding: 15px 20PX;
   display: flex;
@@ -25,16 +31,19 @@ body, html {
   background: none;
   color: #ffffff;
   border: 1px solid #ffffff;
+  cursor: pointer;
 }
 .btn.pink {
   color: pink;
 }
 
 header {
-  padding: 64px 0;
+  padding: 33px 0;
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: rgb(32, 32, 32);
+  z-index: 999;
 }
 header .head {
   display: flex;
@@ -45,6 +54,10 @@ header .head .icons {
   display: flex;
   align-items: center;
   gap: 15px;
+}
+
+* {
+  text-decoration: none;
 }
 
 section .hero-section {
@@ -108,7 +121,7 @@ section .description-section .description-container .mastering .breaking {
   justify-content: space-between;
 }
 section .description-section .description-container .mastering .breaking .super {
-  margin-left: 250px;
+  margin-left: 138px;
   display: flex;
   justify-content: space-between;
 }
@@ -169,6 +182,212 @@ section .description-section-2 .description-section-2-container .desc .p-text {
   font-size: 20px;
   font-weight: 400;
   text-align: left;
+}
+section .slider-normal-section {
+  background: rgb(32, 32, 32);
+}
+section .slider-normal-section .slider-normal-container {
+  padding: 108px 0;
+}
+section .slider-normal-section .slider-normal-container .slider-text {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+section .slider-normal-section .slider-normal-container .slider-text .left-text span {
+  font-size: 20px;
+  font-weight: 400;
+}
+section .slider-normal-section .slider-normal-container .slider-text .right-text {
+  font-size: 24px;
+  font-weight: 400;
+}
+section .slider-normal-section .slider-normal-container .slider-text span {
+  display: block;
+}
+section .designed-perform-section {
+  background-color: rgb(32, 32, 32);
+}
+section .designed-perform-section .designed-perform-container {
+  padding: 100px 0;
+}
+section .designed-perform-section .designed-perform-container .dwsigned-start {
+  display: flex;
+  justify-content: space-between;
+}
+section .designed-perform-section .designed-perform-container .dwsigned-start span {
+  display: block;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+}
+section .designed-perform-section .designed-perform-container .designed-end {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -100px;
+}
+section .designed-perform-section .designed-perform-container .designed-end .text {
+  margin-top: 420px;
+  margin-right: 90px;
+}
+section .designed-perform-section .designed-perform-container .designed-end .text .h1-text {
+  display: block;
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+section .designed-perform-section .designed-perform-container .designed-end .text .p-text {
+  margin-left: 50px;
+  display: block;
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+}
+section .features-section {
+  background-color: rgb(32, 32, 32);
+  padding: 100px 0;
+}
+section .features-section .features-container .features-content .h1-text {
+  display: block;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+}
+section .features-section .features-container .features-content .content-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+section .features-section .features-container .features-content div .h2-text {
+  width: 375px;
+  margin-top: 60px;
+  display: block;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  border-bottom: 1px solid gray;
+}
+section .features-section .features-container .features-content div .p-text {
+  margin-top: 26px;
+  display: block;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+}
+section .pred-footer-section {
+  padding: 100px 0;
+  background-color: rgb(32, 32, 32);
+}
+section .pred-footer-section .pred-footer-container .table-content .table span {
+  display: block;
+  color: #ffffff;
+}
+section .pred-footer-section .pred-footer-container .table-content .table .h1-text {
+  font-size: 20px;
+  font-weight: 400;
+}
+section .pred-footer-section .pred-footer-container .table-content .table input {
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  padding-left: 40px;
+  color: #ffffff;
+}
+section .pred-footer-section .pred-footer-container .table-content .table .massage {
+  padding-bottom: 100px;
+}
+section .pred-footer-section .pred-footer-container .table-content .table .rage {
+  display: flex;
+  padding-top: 100px;
+  justify-content: space-between;
+}
+section .pred-footer-section .pred-footer-container .table-content .table .rage .agree {
+  display: flex;
+  align-items: center;
+}
+section .pred-footer-section .pred-footer-container .table-content .table .rage .agree span {
+  display: block;
+  margin-left: 40px;
+}
+section .pred-footer-section .pred-footer-container .table-content .table .rage .agree #agree {
+  width: 30px;
+  height: 27px;
+  background: none;
+}
+
+.slider {
+  text-align: center;
+  align-items: center;
+  padding-top: 65px;
+}
+.slider .mySwiper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider .mySwiper .swiper-slide img {
+  object-fit: contain;
+  width: 700px;
+  height: 500px;
+}
+
+.slider-one-section {
+  background-color: rgb(32, 32, 32);
+}
+.slider-one-section .slider-one-container .text-slider {
+  position: relative;
+}
+.slider-one-section .slider-one-container .text-slider span {
+  display: block;
+  position: absolute;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  left: 60px;
+  z-index: 2;
+}
+.slider-one-section .slider-one-container .text-slider .slider-one {
+  margin-left: 283px;
+}
+
+footer .footer {
+  background-color: rgb(32, 32, 32);
+  padding: 100px 0;
+}
+footer .footer .footer-container .start-contant {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer .footer-container .start-contant .address span {
+  display: block;
+  color: #ffffff;
+}
+footer .footer .footer-container .start-contant .address .h1-text {
+  font-size: 24px;
+  font-weight: 400;
+}
+footer .footer .footer-container .start-contant .address .p-text {
+  display: block;
+  color: #ffffff;
+  margin-top: 32px;
+  font-size: 16px;
+  font-weight: 300;
+}
+footer .footer .footer-container .start-contant .address .icons {
+  margin-top: 32px;
+  display: flex;
+  gap: 17px;
+}
+footer .footer .footer-container .end-contant {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer .footer-container .end-contant .p-text {
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,6 @@
+*{
+    text-decoration: none
+}
 section{
     .hero-section{
         @include background;
@@ -50,7 +53,7 @@ section{
                     display: flex;
                     justify-content: space-between;
                     .super{
-                        margin-left: 250px;
+                        margin-left: 138px;
                         display: flex;
                         justify-content: space-between;
                         p{
@@ -110,6 +113,150 @@ section{
                     color: $white;
                     @include heading_20;
                     text-align: left;
+                }
+            }
+        }
+    }
+    .slider-normal-section{
+        background: $black;
+        .slider-normal-container{
+            padding: 108px 0;
+           .slider-text{
+            display: flex;
+            justify-content: space-between;
+            color: $white;
+            .left-text{
+                span{
+                    @include heading_20;
+                }
+            }
+            .right-text{
+                @include heading_24
+            }
+            span{
+                display: block;
+            }
+           }
+        }
+    }
+    .designed-perform-section{
+        background-color: $black;
+        .designed-perform-container{
+            padding: 100px 0;
+            .dwsigned-start{
+                display: flex;
+                justify-content:space-between;
+                span{
+                    display: block;
+                    color: $white;
+                    @include heading_20;
+                    
+                }
+            }
+            .designed-end{
+                display: flex;
+                justify-content: space-between;
+                margin-top: -100px;
+                .text{
+                    margin-top: 420px;
+                    margin-right: 90px;
+                    .h1-text{
+                        display: block;
+                        @include heading_24;
+                        color: $white;
+                    }
+                    .p-text{
+                        margin-left: 50px;
+                        display: block;
+                        @include heading_18;
+                        color: $white;
+                        
+                    }
+                }
+                
+            }
+        }
+    }
+    .features-section{
+        background-color: $black;
+        padding: 100px 0;
+        .features-container{
+            .features-content{
+                .h1-text{
+                    display: block;
+                    color: $white;
+                    @include heading_24
+                }
+                .content-text{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr ;
+                }
+                div{
+                    .h2-text{
+                        width: 375px;
+                        margin-top: 60px;
+                        display: block;
+                        color: $white;
+                        @include heading_20;
+                        border-bottom: 1px solid gray;
+                    }
+                    .p-text{
+                        margin-top: 26px;
+                        display: block;
+                        color: $white;
+                        @include heading_16;
+                    }
+                }
+            }
+        }
+    }
+    .pred-footer-section{
+        padding: 100px 0;
+        background-color: $black;
+        .pred-footer-container{
+            .table-content{
+                .table{
+                    span{
+                        display: block;
+                        color: $white;
+                    }
+                    .h1-text{
+                        
+                        @include heading_20;
+                    }
+                    input{
+                        display: block;
+                        padding-top: 50px;
+                        padding-bottom: 25px;
+                        background: none;
+                        border: none;
+                        border-bottom: 1px solid gray;
+                        width: 100%;
+                        padding-left: 40px;
+                        color: $white;
+                    }
+                    .massage{
+                        padding-bottom: 100px;
+                    }
+                    .rage{
+                        display: flex;
+                        padding-top: 100px;
+                        justify-content: space-between;
+                        
+                        .agree{
+                            display: flex;
+                            align-items: center;
+                            span{
+                                display: block;
+                                margin-left: 40px;
+                            }
+                            #agree{
+                                width: 30px;
+                                height: 27px;
+                                background: none;
+                            }
+                        }
+                    }
                 }
             }
         }

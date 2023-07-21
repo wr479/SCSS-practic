@@ -1,0 +1,40 @@
+footer{
+    .footer{
+        background-color: $black;
+        padding: 100px 0;
+        .footer-container{
+            .start-contant{
+                display: flex;
+                justify-content: space-between;
+                .address{
+                    span{
+                        display: block;
+                        color: $white;
+                    }
+                    .h1-text{
+                        @include heading_24;
+                    }
+                    .p-text{
+                        display: block;
+                        color: $white;
+                        margin-top: 32px;
+                        @include heading_16;
+                    }
+                    .icons{
+                        margin-top: 32px;
+                        display: flex;
+                        gap: 17px;
+                    }
+                }
+            }
+            .end-contant{
+                margin-top: 150px;
+                display: flex;
+                justify-content: space-between;
+                .p-text{
+                    color: $white;
+                }
+            }
+        }
+    }
+}

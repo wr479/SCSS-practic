@@ -1,0 +1,35 @@
+.slider{
+    text-align: center;
+    align-items: center;
+    padding-top: 65px;
+    .mySwiper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .swiper-slide img{
+            object-fit: contain;
+            width: 700px;
+            height: 500px;
+        }
+    }
+}
+.slider-one-section{
+    background-color: $black;
+    .slider-one-container{
+        .text-slider{
+            position: relative;
+            span{
+                display: block;
+                position: absolute;
+                color: $white;
+                @include heading_20;
+                left:60px;
+                z-index: 2;
+            }
+            .slider-one{
+                margin-left:283px;
+            }
+        }
+            
+    }
+}
